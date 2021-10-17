@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img alt="WebsitePortifólio" title="#Website Portifólio" src=".github/logo_websiteportifolio.png" width="250px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center"> 
+	:heavy_check_mark: Website Portifólio React 🚀 :heavy_check_mark:
+</h4>
+<p align="center">	
+	
+  <a href="https://www.linkedin.com/in/danielobara/">
+    <img alt="Made by DanielObara" src="https://img.shields.io/badge/made%20by-JulioCesar012-%2304D361">
+  </a>
+  
+  <a href="https://github.com/DanielObara/NLW-3.0/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JulioCesar012/WebsitePortifolioReact">
+  </a>
 
-## Available Scripts
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/JulioCesar012/WebsitePortifolioReact/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/JulioCesar012/WebsitePortifolioReact?style=social">
+  </a>
+</p>
+<p align="center">
+</p>
+## :information_source: O que é o Website Portifólio?
 
-In the project directory, you can run:
+É um projeto de portifólio feito com React. Nesse site consigo mostrar minhas habilidades, minhas experiências, e meus estudos em diversas tecnologias.Você pode usar esse projeto para montar um site de portifólio para você.
 
-### `yarn start`
+## :rocket: Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project was developed with the following technologies:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Node.js][nodejs]
+- [React Anchor Link Smooth Scroll][reactanchor]
+- [React][reactjs]
 
-### `yarn test`
+## 🔖 View
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Access the project by clicking [here](https://juliofilho.me/).
 
-### `yarn build`
+## :information_source: How To Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+From your command line:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install Front-end
 
-### `yarn eject`
+```bash
+# Clone this repository
+$ git clone https://github.com/JulioCesar012/WebsitePortifolioReact.git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Go into the repository
+$ cd WebsitePortifolioReact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Install dependencies
+$ yarn install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Run
+$ yarn start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# running on port 3000
+```
 
-## Learn More
+## 🤔 How to contribute
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-  Make a fork;
+-  Create a branck with your feature: `git checkout -b my-feature`;
+-  Commit changes: `git commit -m 'feat: My new feature'`;
+-  Make a push to your branch: `git push origin my-feature`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After merging your receipt request to done, you can delete a branch from yours.
 
-### Code Splitting
+## :memo: License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is under the MIT license. See the [LICENSE](https://github.com/JulioCesar012/WebsitePortifolioReact/blob/master/LICENSE) for details.
 
-### Analyzing the Bundle Size
+Made with ♥ by JulioCesar012 :wave: [Get in touch!](https://www.linkedin.com/in/julio-cesar-filho-759653171/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[nodejs]: https://nodejs.org/
+[reactanchor]: https://www.npmjs.com/package/react-anchor-link-smooth-scroll/
+[reactjs]: https://reactjs.org
+[yarn]: https://yarnpkg.com/
