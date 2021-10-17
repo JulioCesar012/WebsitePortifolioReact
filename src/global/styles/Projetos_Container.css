@@ -1,0 +1,341 @@
+.projects {
+  width: 100%;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .title {
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px 15px 30px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  font-size: 1.5rem;
+  border: 3px solid var(--color-orange);
+  color: var(--color-lightWhite);
+  font-weight: bold;
+}
+
+.projects .title > div {
+  width: 100%;
+  display: flex;
+}
+
+.projects .title .cd {
+  padding: 0px 10px 0px 10px;
+}
+
+.projects .project {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.article .link {
+  position: absolute;
+  align-self: flex-end;
+}
+
+.article .link a {
+  text-decoration: none;
+  color: var(--color-orange);
+  margin-right: 8px;
+}
+
+.article .link a:hover {
+  text-decoration: none;
+  color: var(--color-red);
+}
+
+.article .project-name {
+  text-align: left;
+  font-size: 1.5rem;
+  color: var(--color-lightWhite);
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.article {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  box-shadow: var(--color-black) 0px 3px 8px;
+  transition: 0.5s;
+}
+
+.article .project-description .arrow {
+  color: var(--color-green);
+}
+
+.project1 .article:hover {
+  box-shadow: var(--color-yellow) 0px 3px 8px;
+}
+
+.project2 .article:hover {
+  box-shadow: var(--color-green) 0px 3px 8px;
+}
+
+.gitdex .article:hover {
+  box-shadow: #183268 0px 3px 8px;
+}
+
+.project1 .progress-done {
+  background: var(--color-yellow);
+}
+
+.gitdex .progress-done {
+  background: #183268;
+}
+
+.project1 .progress-text .percentage,
+.project1 .progress-text .percentage i {
+  color: var(--color-yellow);
+}
+
+.gitdex .progress-text .percentage,
+.gitdex .progress-text .percentage i {
+  color: #355caf;
+}
+
+.project1 .progress-text {
+  color: var(--background-color);
+}
+.project2 .progress-text {
+  color: var(--background-color);
+}
+.gitdex .progress-text {
+  color: var(--color-lightWhite);
+}
+
+.article .project-name .number {
+  color: var(--color-green);
+}
+
+.article .project-description ul li {
+  list-style: none;
+  color: var(--color-lightWhite);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.project .container {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  opacity: 0.8;
+  transform: rotate(-30deg) skew(25deg) scale(0.7);
+  transition: 0.5s;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.project1,
+.project2 {
+  margin-top: 3rem;
+}
+
+.project1 .container {
+  background: var(--color-yellow);
+  box-shadow: 0 0 40px var(--color-yellow);
+}
+
+.project2 .container {
+  background: var(--color-green);
+  box-shadow: 0 0 40px var(--color-green);
+}
+
+.gitdex .container {
+  background: #183268;
+  box-shadow: 0 0 40px #183268;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container img {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
+.container:hover img:nth-child(3) {
+  transform: translate(60px, -60px);
+  opacity: 1;
+}
+
+.container:hover img:nth-child(2) {
+  transform: translate(40px, -40px);
+  opacity: 0.75;
+}
+
+.container:hover img:nth-child(1) {
+  transform: translate(20px, -20px);
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1380px) {
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.65);
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.52);
+  }
+
+  .article {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.47);
+  }
+
+  .article {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.75) translateX(-5%)
+      translateY(5%);
+  }
+
+  .article {
+    transform: scale(1) translateY(25%);
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .projects .title {
+    font-size: 1.3rem;
+    width: 225px;
+  }
+
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.65) translateX(-5%)
+      translateY(5%);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .project {
+    padding: 20px;
+  }
+
+  .projects .title {
+    font-size: 1.1rem;
+    width: 200px;
+  }
+
+  .project .container {
+    transform: rotate(-30deg) skew(25deg) scale(0.55) translateX(-5%)
+      translateY(3%);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .project {
+    padding: 20px;
+  }
+
+  .project .container {
+    transform: scale(0.75) translateY(5%);
+  }
+
+  .article {
+    transform: scale(0.9) translateY(25%);
+    padding: 20px;
+  }
+
+  .article .project-description ul li {
+    font-size: 1rem;
+  }
+
+  .container:hover {
+    transform: scale(0.75) translateY(5%) translateX(-5%);
+  }
+
+  .container:hover img:nth-child(3) {
+    transform: translate(45px, -45px);
+    opacity: 1;
+  }
+
+  .container:hover img:nth-child(2) {
+    transform: translate(30px, -30px);
+    opacity: 0.75;
+  }
+
+  .container:hover img:nth-child(1) {
+    transform: translate(15px, -15px);
+    opacity: 0.5;
+  }
+  .article {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .project {
+    padding: 20px;
+  }
+
+  .projects .title {
+    font-size: 1rem;
+    width: 192px;
+  }
+
+  .container:hover img:nth-child(1),
+  .container:hover img:nth-child(2),
+  .container:hover img:nth-child(3) {
+    transform: none;
+  }
+
+  .article {
+    transform: scale(0.9) translateY(20%);
+  }
+
+  .article .project-description ul li {
+    font-size: 1rem;
+  }
+  .article {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .project {
+    padding: 20px;
+  }
+
+  .projects .title {
+    font-size: 0.9rem;
+    width: 180px;
+  }
+  .article {
+    max-width: 290px;
+  }
+}

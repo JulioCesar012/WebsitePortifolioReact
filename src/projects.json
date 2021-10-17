@@ -1,0 +1,51 @@
+{
+"projects": [
+    {
+    "title_project": "Portifólio DEV",
+    "caracteristica_1": "Exibe informações sobre mim",
+    "caracteristica_2": "Meus estudos",
+    "caracteristica_3": "Minhas experiências",
+    "caracteristica_4": "Meus contatos",
+
+    "tecnologia1": "React",
+    "tecnologia2": "HTML",
+    "tecnologia3": "CSS",
+
+    "tecnologia1Count": 80,
+    "tecnologia2Count": 40,
+    "tecnologia3Count": 50,
+
+    "number_project": 1,
+
+    "link_projeto": "https://github.com/JulioCesar012",
+    "imagem_projeto": "./assets/img/image1.jpg",
+    "key": 1,
+    
+    "projeto_view": "https://github.com/JulioCesar012",
+    "projeto_github": "https://github.com/JulioCesar012"
+}, 
+
+{
+    "title_project": "INOVAar",
+    "caracteristica_1": "Calcula umidade absoluta do ar",
+    "caracteristica_2": "Aplicativo disponível para IOS/ANDROID",
+    "caracteristica_3": "Código fonte não disponível",
+
+    "tecnologia1": "React Native",
+    "tecnologia2": "CSS",
+    "tecnologia3": "React Navigation",
+
+    "tecnologia1Count": 80,
+    "tecnologia2Count": 60,
+    "tecnologia3Count": 60,
+
+    "number_project": 2,
+
+    "link_projeto": "https://inovaarclimatizacao.com.br",
+    "key": 2,
+
+    "projeto_view": "https://inovaarclimatizacao.com.br",
+    "projeto_playstore": "https://play.google.com/store/apps/details?id=com.inovaar.inovaarapp",
+    "projeto_applestore": "https://apps.apple.com/pt/app/inovaar-umidade-absoluta/id1588944236"
+}]
+}

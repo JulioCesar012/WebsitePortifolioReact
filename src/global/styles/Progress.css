@@ -1,0 +1,76 @@
+.progress-bar {
+  display: flex;
+  height: 20px;
+  background-color: #060311;
+  border-radius: 15px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.progress-bar .progress-language-1 {
+  height: 100%;
+  background: var(--color-yellow);
+  border-radius: 15px;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.562);
+  font-weight: 700;
+  margin-right: 0;
+}
+
+.progress-bar .progress-language-2 {
+  height: 100%;
+  background: var(--color-green);
+  border-radius: 15px;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  margin-right: 0;
+}
+
+.div-geral {
+  grid-template-columns: 1fr, 1fr;
+  background: rgba(5, 5, 5, 0.466);
+  box-shadow: inset 0 2px 9px rgba(0, 0, 0, 0.452),
+    inset 0 -2px 6px rgba(10, 10, 10, 0.589);
+  margin-top: 0;
+  border-radius: 15px;
+}
+
+.progress-text {
+  align-items: center;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.progress-text .tecnology-title {
+  margin-right: 2rem;
+  font-size: 12px;
+
+}
+
+.progress-text .percentage-title-1,
+.progress-text .percentage-title-1 i {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: var(--color-green);
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.progress-text .percentage-title-2 {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: var(--color-green);
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.progress-text .fa-percentage {
+  margin-left: 4px;
+}

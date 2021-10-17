@@ -1,0 +1,105 @@
+.navbar {
+  position: fixed;
+  z-index: 10;
+  height: 60px;
+  width: 100%;
+  background: rgba(10, 5, 24, 0.9);
+  transition: all 0.4s;
+}
+
+.name-top {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  background: transparent;
+  z-index: 100;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.name-top a {
+  color: var(--color-lightWhite);
+  text-decoration: none;
+}
+
+.name-top span {
+  padding: 0px 2px 0px 2px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.top .anime {
+	opacity: 0;
+  transform: translateX(-100vw);
+}
+
+.top .anime-init {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: 1s all ease;
+}
+
+.top .anime-opacity {
+	opacity: 0;
+}
+
+.top .init-opacity {
+  opacity: 1;
+  transition: 1s all ease;
+}
+
+.top .typing-anime {
+  animation: none;
+	visibility: hidden;
+}
+
+.top .typing-init {
+	visibility: visible;
+  border: none;
+	overflow: hidden;
+  white-space: nowrap;
+  animation: title-typing 2.5s steps(30, end);
+}
+
+@keyframes title-typing {
+  from {
+    border-right: .15em solid var(--color-lightWhite);
+    width: 0px;
+  }
+  to {
+    width: 200%;
+  }
+}
+
+.top-up {
+  text-decoration: none;
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: var(--color-green);
+  transition: all 0.3s;
+}
+
+.top-up:hover {
+  background-color: var(--color-lightWhite);
+}
+
+.top-up:hover i {
+  color: var(--color-green);
+}
+
+.top-up i {
+  font-size: 2rem;
+  color: var(--background-color);
+}
