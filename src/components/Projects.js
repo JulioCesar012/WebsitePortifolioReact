@@ -113,9 +113,9 @@ const Project1 = () => {
                   target="_blank"
                   title="Ir para projeto x"
                 >
-                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
-                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
-                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : projectInfo.number_project === 2 ? image2 : projectInfo.number_project === 3 ? image3 : image1} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : projectInfo.number_project === 2 ? image2 : projectInfo.number_project === 3 ? image3 : image1} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : projectInfo.number_project === 2 ? image2 : projectInfo.number_project === 3 ? image3 : image1} alt="Site Portifólio" />
                 </a>
               </div>
             </div>

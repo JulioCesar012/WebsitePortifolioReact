@@ -27,6 +27,16 @@
   margin-right: 0;
 }
 
+.progress-bar .progress-language-3 {
+  height: 100%;
+  background: var(--color-green);
+  border-radius: 15px;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  margin-right: 0;
+}
+
 .div-geral {
   grid-template-columns: 1fr, 1fr;
   background: rgba(5, 5, 5, 0.466);
@@ -61,6 +71,17 @@
 }
 
 .progress-text .percentage-title-2 {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  color: var(--color-green);
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.progress-text .percentage-title-3 {
   display: flex;
   height: 20px;
   align-items: center;
