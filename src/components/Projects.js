@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import Progress from "./Progress";
 import image1 from "../assets/img/image1.jpg";
 import image2 from "../assets/img/inovaar.jpg";
+import image3 from "../assets/img/clone_twitter.png";
 import { projects } from '../projects.json';
 
 const Project1 = () => {
@@ -112,9 +113,9 @@ const Project1 = () => {
                   target="_blank"
                   title="Ir para projeto x"
                 >
-                  <img src={projectInfo.number_project === 1 ? image1 : image2} alt="Site Portifólio" />
-                  <img src={projectInfo.number_project === 1 ? image1 : image2} alt="Site Portifólio" />
-                  <img src={projectInfo.number_project === 1 ? image1 : image2} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
+                  <img src={projectInfo.number_project === 1 ? image1 : image2 ? image3 : image1} alt="Site Portifólio" />
                 </a>
               </div>
             </div>

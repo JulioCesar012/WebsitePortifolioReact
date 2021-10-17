@@ -47,5 +47,27 @@
     "projeto_view": "https://inovaarclimatizacao.com.br",
     "projeto_playstore": "https://play.google.com/store/apps/details?id=com.inovaar.inovaarapp",
     "projeto_applestore": "https://apps.apple.com/pt/app/inovaar-umidade-absoluta/id1588944236"
-}]
+},
+{
+    "title_project": "Clone Twitter",
+    "caracteristica_1": "Frontend semelhante ao twitter",
+    "caracteristica_2": "Modo responsivo",
+    "caracteristica_3": "Uso em massa de css grid",
+
+    "tecnologia1": "React.js",
+    "tecnologia2": "Typescript",
+    "tecnologia3": "CSS",
+
+    "tecnologia1Count": 80,
+    "tecnologia2Count": 70,
+    "tecnologia3Count": 60,
+
+    "number_project": 2,
+
+    "link_projeto": "https://clonetwitter21.netlify.app",
+    "key": 2,
+
+    "projeto_view": "https://clonetwitter21.netlify.app/"
+}
+]
 }
