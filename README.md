@@ -40,6 +40,12 @@ Access the project by clicking [here](https://juliofilho.me/).
 
 :information_source: How To Use
 
+🖥️ View Gif
+
+<h1 align="center">
+    <img src=".github/gif_websiteportifolio.mp4">
+</h1>
+
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
 
 From your command line:
