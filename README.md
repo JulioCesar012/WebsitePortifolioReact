@@ -22,11 +22,11 @@
 </p>
 <p align="center">
 </p>
-## :information_source: O que é o Website Portifólio?
+:information_source: O que é o Website Portifólio?
 
 É um projeto de portifólio feito com React. Nesse site consigo mostrar minhas habilidades, minhas experiências, e meus estudos em diversas tecnologias.Você pode usar esse projeto para montar um site de portifólio para você.
 
-## :rocket: Technologies
+:rocket: Technologies
 
 This project was developed with the following technologies:
 
@@ -34,11 +34,11 @@ This project was developed with the following technologies:
 - [React Anchor Link Smooth Scroll][reactanchor]
 - [React][reactjs]
 
-## 🔖 View
+🔖 View
 
 Access the project by clicking [here](https://juliofilho.me/).
 
-## :information_source: How To Use
+:information_source: How To Use
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
 
@@ -73,7 +73,7 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/JulioCesar012/WebsitePortifolioReact/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/JulioCesar012/WebsitePortifolioReact/blob/master/LICENCE) for details.
 
 Made with ♥ by JulioCesar012 :wave: [Get in touch!](https://www.linkedin.com/in/julio-cesar-filho-759653171/)
 
