@@ -8,17 +8,8 @@ import image3 from "../assets/img/clone_twitter.png";
 import { projects } from '../projects.json';
 
 const Project1 = () => {
-  const [reactCount, setReactCount] = useState(70);
-  const [htmlCount, setHtmlCount] = useState(50);
-  const [cssCount, setCssCount] = useState(40);
-
+  
   const [projectsList, setProjectsList] = useState(0);
-
-  const tecnology1 = "React";
-  const tecnology2 = "HTML";
-  const tecnology3 = "CSS";
-
-  const numberProject = "1";
 
   useEffect(() => {
     if (projects) {
@@ -120,7 +111,7 @@ const Project1 = () => {
               </div>
             </div>
 
-            {projectInfo.key === 1 ? (
+            {projectInfo.key === 1 || projectInfo.key === 2 ? (
               <div className="divider anime-opacity" data-aos="fade">
                 <span></span>
                 <span>
