@@ -9,7 +9,7 @@ const Faculdade = () => {
             <div className="title">
               <div className="typing">
                 $<div className="cd magenta">cd</div>
-                <div className="yellow">Faculdade</div>
+                <div className="yellow">Facul</div>
               </div>
             </div>
           </span>

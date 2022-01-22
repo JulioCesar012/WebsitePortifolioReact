@@ -1,7 +1,7 @@
 {
     "projects": [
     {
-    "title_project": "Portifólio DEV",
+    "title_project": "Site DEV",
     "caracteristica_1": "Exibe informações sobre mim",
     "caracteristica_2": "Meus estudos",
     "caracteristica_3": "Minhas experiências",
@@ -49,7 +49,7 @@
     "projeto_applestore": "https://apps.apple.com/pt/app/inovaar-umidade-absoluta/id1588944236"
 },
 {
-    "title_project": "Clone Twitter",
+    "title_project": "Twitter",
     "caracteristica_1": "Frontend semelhante ao twitter",
     "caracteristica_2": "Modo responsivo",
     "caracteristica_3": "Uso em massa de css grid",
