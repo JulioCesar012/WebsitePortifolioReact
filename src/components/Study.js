@@ -20,7 +20,7 @@ const Study = () => {
           <div className="tech react tech-border">
             <div className="tech-title">React.js</div>
             <div className="tech-description">
-              Iniciei os estudos com o <span>framework</span> em
+              Já conhecia desde 2017 o <span>framework</span> porém iniciei os estudos avançados em
               <span> 2018</span> através da rocketseat, desde então vim
               evoluindo e criando
               <span> projetos</span> práticos. O React é principal biblioteca

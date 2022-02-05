@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import "./global/styles.css";
 import "./global/styles/Home.css";
 import "./global/styles/Sprints.css";
-import "./global/styles/Projetos_Container.css";
+import "./global/styles/Projects_Container.css";
 import "./global/styles/Study.css";
 import "./global/styles/About.css";
 import "./global/styles/Faculdade.css";

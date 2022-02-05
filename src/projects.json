@@ -1,74 +1,94 @@
 {
-    "projects": [
+  "projects": [
     {
-    "title_project": "Site DEV",
-    "caracteristica_1": "Exibe informações sobre mim",
-    "caracteristica_2": "Meus estudos",
-    "caracteristica_3": "Minhas experiências",
-    "caracteristica_4": "Meus contatos",
+        "title_project": "Marketplace Conaz - Ambar Tech",
 
-    "tecnologia1": "React",
-    "tecnologia2": "HTML",
-    "tecnologia3": "CSS",
+        "tecnologia1": "React",
+        "tecnologia2": "HTML",
+        "tecnologia3": "CSS",
+  
+        "tecnologia1Count": 80,
+        "tecnologia2Count": 40,
+        "tecnologia3Count": 50,
+  
+        "number_project": 1,
+  
+        "link_projeto": "https://github.com/JulioCesar012",
+        "imagem_projeto": "./assets/img/image1.jpg",
+        "key": 0,
+  
+        "projeto_view": "https://github.com/JulioCesar012",
+        "projeto_github": "https://github.com/JulioCesar012"
+      },
+    {
+      "title_project": "Site DEV",
+      "caracteristica_1": "Exibe informações sobre mim",
+      "caracteristica_2": "Meus estudos",
+      "caracteristica_3": "Minhas experiências",
+      "caracteristica_4": "Meus contatos",
 
-    "tecnologia1Count": 80,
-    "tecnologia2Count": 40,
-    "tecnologia3Count": 50,
+      "tecnologia1": "React",
+      "tecnologia2": "HTML",
+      "tecnologia3": "CSS",
 
-    "number_project": 1,
+      "tecnologia1Count": 80,
+      "tecnologia2Count": 40,
+      "tecnologia3Count": 50,
 
-    "link_projeto": "https://github.com/JulioCesar012",
-    "imagem_projeto": "./assets/img/image1.jpg",
-    "key": 1,
-    
-    "projeto_view": "https://github.com/JulioCesar012",
-    "projeto_github": "https://github.com/JulioCesar012"
-}, 
+      "number_project": 1,
 
-{
-    "title_project": "INOVAar",
-    "caracteristica_1": "Calcula umidade absoluta do ar",
-    "caracteristica_2": "Aplicativo disponível para IOS/ANDROID",
-    "caracteristica_3": "Código fonte não disponível",
+      "link_projeto": "https://github.com/JulioCesar012",
+      "imagem_projeto": "./assets/img/image1.jpg",
+      "key": 1,
 
-    "tecnologia1": "React Native",
-    "tecnologia2": "CSS",
-    "tecnologia3": "React Navigation",
+      "projeto_view": "https://github.com/JulioCesar012",
+      "projeto_github": "https://github.com/JulioCesar012"
+    },
 
-    "tecnologia1Count": 80,
-    "tecnologia2Count": 60,
-    "tecnologia3Count": 60,
+    {
+      "title_project": "INOVAar",
+      "caracteristica_1": "Calcula umidade absoluta do ar",
+      "caracteristica_2": "Aplicativo disponível para IOS/ANDROID",
+      "caracteristica_3": "Código fonte não disponível",
 
-    "number_project": 2,
+      "tecnologia1": "React Native",
+      "tecnologia2": "CSS",
+      "tecnologia3": "React Navigation",
 
-    "link_projeto": "https://inovaarclimatizacao.com.br",
-    "key": 2,
+      "tecnologia1Count": 80,
+      "tecnologia2Count": 60,
+      "tecnologia3Count": 60,
 
-    "projeto_view": "https://inovaarclimatizacao.com.br",
-    "projeto_playstore": "https://play.google.com/store/apps/details?id=com.inovaar.inovaarapp",
-    "projeto_applestore": "https://apps.apple.com/pt/app/inovaar-umidade-absoluta/id1588944236"
-},
-{
-    "title_project": "Twitter",
-    "caracteristica_1": "Frontend semelhante ao twitter",
-    "caracteristica_2": "Modo responsivo",
-    "caracteristica_3": "Uso em massa de css grid",
+      "number_project": 2,
 
-    "tecnologia1": "React.js",
-    "tecnologia2": "Typescript",
-    "tecnologia3": "CSS",
+      "link_projeto": "https://inovaarclimatizacao.com.br",
+      "key": 2,
 
-    "tecnologia1Count": 80,
-    "tecnologia2Count": 70,
-    "tecnologia3Count": 60,
+      "projeto_view": "https://inovaarclimatizacao.com.br",
+      "projeto_playstore": "https://play.google.com/store/apps/details?id=com.inovaar.inovaarapp",
+      "projeto_applestore": "https://apps.apple.com/pt/app/inovaar-umidade-absoluta/id1588944236"
+    },
+    {
+      "title_project": "Twitter",
+      "caracteristica_1": "Frontend semelhante ao twitter",
+      "caracteristica_2": "Modo responsivo",
+      "caracteristica_3": "Uso em massa de css grid",
 
-    "number_project": 3,
+      "tecnologia1": "React.js",
+      "tecnologia2": "Typescript",
+      "tecnologia3": "CSS",
 
-    "link_projeto": "https://clonetwitter21.netlify.app",
-    "key": 3,
+      "tecnologia1Count": 80,
+      "tecnologia2Count": 70,
+      "tecnologia3Count": 60,
 
-    "projeto_view": "https://clonetwitter21.netlify.app/",
-    "projeto_github": "https://github.com/JulioCesar012/Clone_Twitter"
-}
-]
+      "number_project": 3,
+
+      "link_projeto": "https://clonetwitter21.netlify.app",
+      "key": 3,
+
+      "projeto_view": "https://clonetwitter21.netlify.app/",
+      "projeto_github": "https://github.com/JulioCesar012/Clone_Twitter"
+    }
+  ]
 }

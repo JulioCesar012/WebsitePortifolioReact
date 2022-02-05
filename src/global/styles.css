@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 :root {
     --background-color: #0a0518;
     --color-lightWhite: #e6e6e6;
@@ -159,10 +161,43 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: space-between;
 }
 
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  min-width: 100% !important;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.article-conaz img {
+  border-radius: 0px !important;
+  top: 1rem !important;
+  margin-top: 0px !important;
+}
+
+.image-gallery-thumbnail+.image-gallery-thumbnail {
+  border-radius: 5px !important;
+  margin-top: 2rem;
+}
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image {
+  border-radius: 5px !important;
+}
+
+.image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, :focus {
+  border: 2px solid var(--color-orange) !important;
+  border-radius: 7px !important;
+}
 
 @media screen and (max-width: 920px) {
   .tooltip .tooltiptext {
     left: 0%;
+  }
+
+  .article-conaz {
+    margin-top: 2.5rem !important;
+  }
+
+  .image-gallery-content .image-gallery-slide .image-gallery-image {
+    height: 100% !important;
   }
 }
 

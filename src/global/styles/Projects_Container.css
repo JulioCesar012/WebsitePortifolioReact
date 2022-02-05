@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 
-.projects .title > div {
+.projects .title>div {
   width: 100%;
   display: flex;
 }
@@ -72,6 +72,48 @@
   transition: 0.5s;
 }
 
+.article-conaz .project-name {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-lightWhite);
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.article-conaz a {
+  text-decoration: none;
+  color: var(--color-orange);
+}
+
+.article-conaz {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 6.5rem;
+  background-color: var(--background-color);
+  /* border: 1px solid var(--color-orange); */
+  border-radius: 20px;
+  box-shadow: var(--color-orange) 0px 1px 9px;
+  transition: 0.5s;
+}
+
+.article-conaz img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+  background-size: cover;
+  margin-top: -15px;
+}
+
+.container img {
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+
 .article .project-description .arrow {
   color: var(--color-green);
 }
@@ -109,9 +151,11 @@
 .project1 .progress-text {
   color: var(--background-color);
 }
+
 .project2 .progress-text {
   color: var(--background-color);
 }
+
 .gitdex .progress-text {
   color: var(--color-lightWhite);
 }
@@ -125,6 +169,16 @@
   color: var(--color-lightWhite);
   font-weight: 400;
   font-size: 1.2rem;
+}
+
+.project .container-conaz {
+  position: relative;
+  width: 360px;
+  height: 540px;
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .project .container {
@@ -153,12 +207,14 @@
   box-shadow: 0 0 40px var(--color-green);
 }
 
-.gitdex .container {
+.gitdex .container,
+.gitdex .container-conaz {
   background: #183268;
   box-shadow: 0 0 40px #183268;
 }
 
-.container a {
+.container a,
+.container-conaz a {
   text-decoration: none;
 }
 
@@ -167,6 +223,15 @@
   width: 100%;
   transition: 0.5s;
   border-radius: 15px;
+}
+
+.container-conaz img {
+  width: 100%;
+  min-width: 450px;
+  background-size: contain;
+  object-fit: contain;
+  margin-top: 6rem;
+  height: 340px;
 }
 
 .container:hover img:nth-child(3) {
@@ -218,8 +283,7 @@
   }
 
   .project .container {
-    transform: rotate(-30deg) skew(25deg) scale(0.75) translateX(-5%)
-      translateY(5%);
+    transform: rotate(-30deg) skew(25deg) scale(0.75) translateX(-5%) translateY(5%);
   }
 
   .article {
@@ -236,8 +300,7 @@
   }
 
   .project .container {
-    transform: rotate(-30deg) skew(25deg) scale(0.65) translateX(-5%)
-      translateY(5%);
+    transform: rotate(-30deg) skew(25deg) scale(0.65) translateX(-5%) translateY(5%);
   }
 }
 
@@ -252,8 +315,11 @@
   }
 
   .project .container {
-    transform: rotate(-30deg) skew(25deg) scale(0.55) translateX(-5%)
-      translateY(3%);
+    transform: rotate(-30deg) skew(25deg) scale(0.55) translateX(-5%) translateY(3%);
+  }
+
+  .article-conaz {
+    width: 100% !important;
   }
 }
 
@@ -293,6 +359,7 @@
     transform: translate(15px, -15px);
     opacity: 0.5;
   }
+
   .article {
     max-width: 350px;
   }
@@ -321,6 +388,7 @@
   .article .project-description ul li {
     font-size: 1rem;
   }
+
   .article {
     max-width: 350px;
   }
@@ -335,6 +403,7 @@
     font-size: 0.9rem;
     width: 180px;
   }
+
   .article {
     max-width: 290px;
   }
