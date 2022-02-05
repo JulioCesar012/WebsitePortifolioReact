@@ -1,17 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable array-callback-return */
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useEffect, useState } from "react";
 import Progress from "./Progress";
 import ImageGallery from 'react-image-gallery';
-
-// Imagens estáticas
-import login_conaz from "../assets/img/tela_login.png";
-import compras_conaz from "../assets/img/compras_conaz.png";
-import cotacoes from "../assets/img/cotacoes.png";
-import qc_resumido_conaz from "../assets/img/qc_resumido.png";
-import crud_obras_conaz from "../assets/img/crud_obras.png";
-import crud_usuarios_conaz from "../assets/img/crud_usuarios.png";
-import crud_empresas_conaz from "../assets/img/crud_empresas.png";
-
 
 import image1 from "../assets/img/image1.jpg";
 import image2 from "../assets/img/inovaar.jpg";
@@ -19,40 +11,10 @@ import image3 from "../assets/img/clone_twitter.png";
 
 // json de projetos
 import { projects } from "../projects.json";
+import ImagesConaz from "../animations/utils/images_conaz";
 
 const Project1 = () => {
   const [projectsList, setProjectsList] = useState(0);
-
-  const images_conaz = [
-    {
-      original: login_conaz,
-      thumbnail: login_conaz,
-    },
-    {
-      original: compras_conaz,
-      thumbnail:compras_conaz,
-    },
-    {
-      original: cotacoes,
-      thumbnail: cotacoes,
-    },
-    {
-      original: qc_resumido_conaz,
-      thumbnail: qc_resumido_conaz,
-    },
-    {
-      original: crud_obras_conaz,
-      thumbnail: crud_obras_conaz,
-    },
-    {
-      original: crud_usuarios_conaz,
-      thumbnail: crud_usuarios_conaz,
-    },
-    {
-      original: crud_empresas_conaz,
-      thumbnail: crud_empresas_conaz,
-    },
-  ];
 
   useEffect(() => {
     if (projects) {
@@ -207,7 +169,7 @@ const Project1 = () => {
                   <div className="article-conaz">
                     <a title="Ir para projeto x">
                       <div className="project-name">{projectInfo.title_project}</div>
-                      <ImageGallery items={images_conaz} showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} />
+                      <ImageGallery items={ImagesConaz} showNav={false} showFullscreenButton={false} autoPlay={true} slideInterval={4500} />
                     </a>
                   </div>
                 </div>

@@ -86,14 +86,14 @@ const About = () => {
         <div className="about-text">
           <div className="text">
             <i className="fas fa-quote-left"></i> Meu primeiro contato com a
-            programação foi aos 12 anos num pc antigo do meu tio de monitor
-            branco, o famoso positivo da época. Passei por diversos cursos do{" "}
+            programação foi aos 11 anos num pc antigo do meu tio (positivo da época), ali acessei minha primeira linha de comando 
+            <span> (terminal)</span>.Logo depois um amigo me apresentou os cursos do
             <span> Gustavo Guanabara </span>e aprendi diversos conteúdos sobre{" "}
-            <span>HTML,CSS e JavaScript</span>. Após eu conhecer a{" "}
-            <span> Rocketseat</span> em 2018, eu me dediquei total a stack
+            <span>HTML,CSS e JavaScript</span>. Em 2018 Após eu conhecer a{" "}
+            <span> Rocketseat</span>, eu me dediquei total a stack
             <span> MERN</span> e desde então venho estudando e trabalhando com
-            ela.Recentemente iniciei um bacharel em Engenharia
-            de software e estou evoluindo rápido.
+            ela.Recentemente iniciei um bacharel em <span>Engenharia
+            de Software</span> e estou evoluindo rápido.
             <i className="fas fa-quote-right"></i>
           </div>
         </div>

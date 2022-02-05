@@ -39,9 +39,9 @@ const Study = () => {
               pessoais e reais.
               <span>
                 <a
-                  href="https://github.com/pedrorivald/NLW4-NodeJS"
+                  href="https://medium.com/@juliofilho12"
                   target="_blank"
-                  title="Projeto NodeJS NextLevelWeek 4"
+                  title="Projetos NodeJS"
                 >
                   Meus posts sobre Node.js
                 </a>
